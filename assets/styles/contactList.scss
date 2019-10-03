@@ -1,0 +1,59 @@
+.contact-list-container {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  .contact {
+    background: #fff;
+    width: 800px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    padding: 10px;
+    border-radius: 8px;
+    margin: 5px 0;
+    .contact-header {
+      display: flex;
+      justify-content: flex-end;
+      .icon-btn {
+        width: 15px;
+        height: 18px;
+        object-fit: contain;
+        cursor: pointer;
+        margin: 0 5px;
+      }
+    }
+    .contact-body {
+      display: flex;
+      color: #121212;
+      .personal-info-container {
+        width: 30%;
+      }
+      .personal-info-key {
+        font-weight: 600;
+      }
+    }
+    .contact-footer {
+      display: flex;
+      justify-content: flex-end;
+      .icons-container {
+        display: flex;
+        .icon {
+          padding: 5px 15px;
+          display: flex;
+          align-items: center;
+
+          img {
+            width: 20px;
+            height: 20px;
+            object-fit: contain;
+            margin: 0 5px;
+            cursor: pointer;
+          }
+          span {
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}

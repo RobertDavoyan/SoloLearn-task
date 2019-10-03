@@ -1,0 +1,2 @@
+export const CREATE_NEW_CONTACT = 'CREATE_NEW_CONTACT';    
+export const MODIFY_CONTACT = 'MODIFY_CONTACT';    

@@ -1,0 +1,31 @@
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.15);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .popup-dialog {
+    width: 560px;
+    max-height: 560px;
+    background: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    .popup-header, .popub-body {
+        display: flex;
+        justify-content: center;
+    }
+    .popup-header {
+        line-height: 1.38;
+        color: #868686;
+    }
+    .button-container button {
+        margin: 5px; 
+    }
+  }
+}

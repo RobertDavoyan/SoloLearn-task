@@ -1,0 +1,31 @@
+.create-container {
+  margin: 100px auto;
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    .form-label {
+      font-size: 13px;
+      line-height: 1.38;
+      color: #868686;
+    }
+    .form-input {
+      height: 35px;
+      width: 400px;
+      border-radius: 8px;
+      box-shadow: 0 3px 6px 0 rgba(175, 175, 175, 0.16);
+      font-size: 14px;
+      color: #121212;
+    }
+    .form-textarea {
+      resize: none;
+      padding: 5px 10px;
+      height: 200px;
+      border-color: #e6e6e6
+    }
+  }
+  
+}
+.fromEdit {
+    margin: 0;
+}
